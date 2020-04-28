@@ -15,7 +15,7 @@
 
 
 #### Transformation
-##### The size of the State Drug Utilization dataset was too large to be migrated into the project repository. The file had more that a million rows but was finally reduced to about half of the original file. 
+##### The size of the State Drug Utilization dataset was too large to be migrated into the project repository. The file had more that a million rows. We decided to manually delete about half of the total number of rows. We didn't rely on any specific criteria to determine what rows to delete.
 ##### Both sets of data were read and stored into pandas data frames for easy readability and manipulation.
 
 
@@ -31,7 +31,7 @@
 
 #### Problems Encountered:
 ##### -	We initially could not connect to the database.  We had to ‘pip install psycopg2’  to proceed.
-##### -	We also found it difficult to load the cleaned ‘State Drug Utilization Data’ file. It was discovered that a column within the file had a row with a ‘non-integer’ value. That row was eventually removed and the data was loaded successfully. 
+##### -	We also found it difficult to load the cleaned ‘State Drug Utilization Data’ file. It was discovered that a column within the file had 2 rows with ‘non-integer’ values. The rows were removed by applying a filter on the column in the csv file and manually deleting the rows.The data was eventually loaded successfully. 
 
 #### Tools used: Jupyter Notebook, Postgres, Python.
 
