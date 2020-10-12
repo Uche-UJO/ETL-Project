@@ -1,15 +1,15 @@
 # ETL-Project
-#### Using ETL (Extract, Transform & Load) to create a database from multiple datasets.
-#### The purpose of this project is to source and extract data sets, transform these datasets, and then load the transformed datasets onto a database.
+##### Using ETL (Extract, Transform & Load) to create a database from multiple datasets.
+##### The purpose of this project is to source and extract data sets, transform these datasets, and then load the transformed datasets onto a database.
 
 
 #### Extraction
 ##### We obtained two datasets from  Opendata.gov:
 ##### 1)	State Drug Utilization Data  https://catalog.data.gov/dataset/state-drug-utilization-data-2010-81ad0
-##### This dataset (csv format) comprises of information reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. 
+###### This dataset (csv format) comprises of information reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. 
 
 ##### 2)	Hospital General Information https://catalog.data.gov/dataset/hospital-general-information
-##### This is a list of all hospitals that have been registered with Medicare. The list includes addresses, phone numbers, and hospital type. This list was compiled in a csv format.
+###### This is a list of all hospitals that have been registered with Medicare. The list includes addresses, phone numbers, and hospital type. This list was compiled in a csv format.
 
 ##### These 2 sets of data were downloaded, and we proceeded to take a look at them. We discussed on what relevant information to keep and decided on the what database to utilize.
 
